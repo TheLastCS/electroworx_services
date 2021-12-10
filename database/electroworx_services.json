@@ -1,0 +1,56 @@
+[
+{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"electroworx_services"},
+{"type":"table","name":"appointments","database":"electroworx_services","data":
+[
+{"id":"1","appType":"repair","dateTime":"1979-01-04 00:17:19","user_id":"4","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"2","appType":"maintenance","dateTime":"1984-12-08 20:18:32","user_id":"6","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"3","appType":"repair","dateTime":"1981-05-26 14:25:49","user_id":"1","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"4","appType":"installation","dateTime":"2003-09-03 13:22:58","user_id":"10","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"5","appType":"repair","dateTime":"1998-05-14 12:43:41","user_id":"5","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":"2021-12-10 14:36:27"},
+{"id":"6","appType":"maintenance","dateTime":"1973-06-04 23:05:20","user_id":"6","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"7","appType":"repair","dateTime":"1995-03-18 13:22:06","user_id":"4","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"8","appType":"installation","dateTime":"1970-05-23 14:34:42","user_id":"4","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"9","appType":"repair","dateTime":"1979-10-18 01:11:56","user_id":"2","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null},
+{"id":"10","appType":"maintenance","dateTime":"1978-11-18 07:55:50","user_id":"1","deleted_at":null,"created_at":"2021-12-10 14:32:26","updated_at":null}
+]
+}
+,{"type":"table","name":"failed_jobs","database":"electroworx_services","data":
+[
+
+]
+}
+,{"type":"table","name":"migrations","database":"electroworx_services","data":
+[
+{"id":"1","migration":"2014_10_12_000000_create_users_table","batch":"1"},
+{"id":"2","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"3","migration":"2019_08_19_000000_create_failed_jobs_table","batch":"1"},
+{"id":"4","migration":"2019_12_14_000001_create_personal_access_tokens_table","batch":"1"},
+{"id":"5","migration":"2021_12_10_084324_create_appointments_table","batch":"1"}
+]
+}
+,{"type":"table","name":"password_resets","database":"electroworx_services","data":
+[
+
+]
+}
+,{"type":"table","name":"personal_access_tokens","database":"electroworx_services","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"electroworx_services","data":
+[
+{"id":"1","firstName":"Ezra","lastName":"Dicki","email":"oreilly.virginia@example.com","email_verified_at":"2021-12-10 14:32:24","phone":"09799338515","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"OiOiveS0JU","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"2","firstName":"Crystal","lastName":"Luettgen","email":"wintheiser.florida@example.org","email_verified_at":"2021-12-10 14:32:24","phone":"09591727174","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"ekqh7kr3gk","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"3","firstName":"Dawn","lastName":"Balistreri","email":"cecile.nader@example.net","email_verified_at":"2021-12-10 14:32:24","phone":"09653915376","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"2WXxK5BsuE","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"4","firstName":"Damian","lastName":"Bechtelar","email":"verona.mcglynn@example.net","email_verified_at":"2021-12-10 14:32:24","phone":"09977830405","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"VEOJdXuXCn","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"5","firstName":"Harrison","lastName":"Price","email":"fritsch.kaci@example.com","email_verified_at":"2021-12-10 14:32:24","phone":"09704745298","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"Q9PJ4hiujA","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"6","firstName":"Sabryna","lastName":"Rutherford","email":"amelie61@example.org","email_verified_at":"2021-12-10 14:32:24","phone":"09244044046","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"RkRRqILacz","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"7","firstName":"Oliver","lastName":"Herzog","email":"kendrick23@example.org","email_verified_at":"2021-12-10 14:32:24","phone":"09557443221","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"05NFLOITzy","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"8","firstName":"Nigel","lastName":"Dickens","email":"upton.mallie@example.com","email_verified_at":"2021-12-10 14:32:24","phone":"09831197085","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"g3qdVkATZf","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"9","firstName":"Desiree","lastName":"Gutmann","email":"volkman.katelynn@example.net","email_verified_at":"2021-12-10 14:32:24","phone":"09487553246","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"qjNxu3ZsBc","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"},
+{"id":"10","firstName":"Jettie","lastName":"Hilpert","email":"deanna21@example.net","email_verified_at":"2021-12-10 14:32:24","phone":"09679780770","userType":"Admin","password":"$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2.uheWG\/igi","deleted_at":null,"remember_token":"40aKpps9bv","created_at":"2021-12-10 14:32:24","updated_at":"2021-12-10 14:32:24"}
+]
+}
+]
